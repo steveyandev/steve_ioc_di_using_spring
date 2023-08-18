@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>steve_ioc_di_using_spring</artifactId>
+    <artifactId>steve_ioc_di_using_spring_using_autowired</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
