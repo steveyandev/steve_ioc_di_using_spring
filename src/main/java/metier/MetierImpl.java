@@ -1,11 +1,15 @@
 package metier;
 
 import dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierImpl implements IMetier{
     //couplage faible
     // on met =null car fire =new  reviens a utiliser une classe donc couplage fort
     //private IDao dao=null;
+    @Autowired
     private IDao dao;
 
 
